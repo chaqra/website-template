@@ -1,14 +1,7 @@
 function Home() {
     return (
         <>
-            <div className="banner">
-                <div className="bannercontent">
-                    <h1>Welcome to our website</h1>
-                    <h3>A generic company info.</h3>
-                </div>
-
-            </div>
-
+        
             <h1>Why us?</h1>
 
             <div className="bannerv2">

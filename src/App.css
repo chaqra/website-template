@@ -5,7 +5,7 @@
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 3em;
   line-height: 1.1;
 }
 
@@ -20,7 +20,7 @@ h3 {
 }
 
 :root {
-  --header-color: white;
+  --header-color: black;
   --header-text: black;
   --accent-color: linear-gradient(90deg, rgba(0, 119, 255, 1) 0%, rgb(2, 187, 224) 100%);
   --accent-colorflat: rgb(0, 119, 255);
@@ -39,13 +39,15 @@ a:hover {
   color: rgb(173, 173, 173);
 }
 
+
 .header {
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.65);
-  background-color: var(--header-color);
-  height: 75px;
+  background-image: url("./assets/headerimg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   width: 100%;
-  /* Keep full-screen width for the header */
-  display: flex;
+  min-height: 420px;
   align-items: center;
   color: var(--header-text);
   position: relative;
@@ -58,6 +60,7 @@ a:hover {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
+  min-height: 75px;
 }
 
 .hamburger {
@@ -96,7 +99,7 @@ a:hover {
 
 .nav-menu ul li a {
   text-decoration: none;
-  color: var(--header-text);
+  color: white;
 }
 
 .desktop-menu {
@@ -113,7 +116,7 @@ a:hover {
 
 .desktop-menu ul li a {
   text-decoration: none;
-  color: var(--header-text);
+  color: white;
 }
 
 .services-sec {
@@ -151,23 +154,18 @@ button {
 }
 
 .banner {
-  background-color: var(--accent-colorflat);
+  background: transparent;
   margin-bottom: 50px;
-  background-image: url('https://img.freepik.com/free-photo/3d-rendering-business-meeting-working-room-office-building_105762-1972.jpg?t=st=1736442180~exp=1736445780~hmac=83e23733fd4afd0734d07d7520ca0e4144747672836a11dbbe54ebf375751b34&w=1380');
-  background-size: cover;
-  /* Ensures the image covers the element */
-  background-position: center;
-  /* Centers the image */
   min-height: 300px;
+  width: 100%;
 }
 
 .bannercontent {
-  background-color: black;
-  color: white;
-  opacity: 0.7;
+  color: black;
   margin: 0 auto;
-  padding: 100px 60px;
-
+  padding: 200px 0px;
+  text-align: left;
+  max-width: 1200px;
 }
 
 .bannerv2 {
@@ -226,7 +224,7 @@ button {
   align-items: center;
 }
 
-footer{
+footer {
   background-color: rgb(23, 23, 23);
 }
 
@@ -290,10 +288,11 @@ footer{
     padding: 0;
   }
 
-  .footer-main{
+  .footer-main {
     display: block;
   }
-  .footer-left{
+
+  .footer-left {
     max-width: 100%;
   }
 }

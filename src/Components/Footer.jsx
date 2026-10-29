@@ -3,7 +3,7 @@ function Footer() {
         <>
             <div className="footer-main">
                 <div className="footer-left">
-                    <h1>chaqradesigns.</h1>
+                    <h2>chaqradesigns.</h2>
                     Luscious Orange is a creative agency specializing in design, strategy, and web development. Based in Winnipeg, Manitoba, our team works closely, collaboratively, and completely remotely with customers near and far.
                 </div>
                 <div className="footer-right">

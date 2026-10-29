@@ -9,7 +9,7 @@ function Header() {
     return (
         <header className="header">
             <div className="header-content">
-                <h1>Test</h1>
+                <h2>chaqradesigns</h2>
 
                 {/* Hamburger Icon */}
                 <button
@@ -45,6 +45,16 @@ function Header() {
                         </li>
                     </ul>
                 </div>
+            </div>
+              <div className="banner">
+                <div className="bannercontent">
+                    <h1>chaqradesigns</h1>
+                    <h2>Strategy</h2>
+                    <h2>Design</h2>
+                    <h2>Results</h2>
+
+                </div>
+
             </div>
         </header>
     );
